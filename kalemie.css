@@ -656,6 +656,24 @@ nav a.active::after {
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
+.product-card .btn {
+  margin: 0 1rem 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color, #27ae60);
+  color: #fff;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+.product-card .btn:hover {
+  background-color: #219150; /* slightly darker green */
+  transform: translateY(-2px);
+}
+
 /* Fade-in animation (works with .fade-in class) */
 .product-card.fade-in {
   transition: all 0.8s ease-out;
@@ -1423,4 +1441,90 @@ nav a.active::after {
   padding: 0.3rem 0.5rem;
   border-radius: 4px;
 }
+
+
+
+/* === Product Card === */
+.product-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  text-align: center;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto 1rem;
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.05);
+}
+
+.product-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-color, #27ae60);
+  margin-bottom: 0.5rem;
+}
+
+.product-desc {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.product-card .order-btn {
+  background: var(--primary-color, #27ae60);
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.product-card .order-btn:hover {
+  background: var(--secondary-color, #219150);
+}
+
+/* Emoji hover effect for buttons */
+.btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::after {
+  content: "🛒"; /* duplicate emoji for animation */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.3s ease;
+  pointer-events: none;
+  font-size: 1.2em;
+}
+
+.btn:hover::after {
+  transform: translate(-50%, -50%) scale(1.5) rotate(20deg);
+  opacity: 0.8;
+}
+
+/* Optional: animate original emoji slightly */
+.btn:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
 
