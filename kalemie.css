@@ -1553,7 +1553,7 @@ nav a.active::after {
   margin-bottom: 0.5rem;
 }
 
-/* Blog */
+/* Blog 1*/
 .blog .blog-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
