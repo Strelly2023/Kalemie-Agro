@@ -1565,7 +1565,6 @@ nav a.active::after {
   border-left: 4px solid var(--primary-color, #27ae60);
   border-radius: 8px;
 }
-
 /* AI Crop Advisor Dialog Styles */
 #cropAdvisorDialog {
   display: none;
@@ -1581,18 +1580,21 @@ nav a.active::after {
   width: 90%;
   max-width: 400px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#cropAdvisorDialog h2 {
+#cropTitle {
   margin-top: 0;
   color: #4CAF50;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 #cropAdvisorForm label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  color: #333;
 }
 
 #cropAdvisorForm select,
@@ -1602,6 +1604,7 @@ nav a.active::after {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 #cropAdvisorForm button {
@@ -1612,6 +1615,7 @@ nav a.active::after {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 #cropAdvisorForm button:hover {
@@ -1622,10 +1626,11 @@ nav a.active::after {
   margin-top: 15px;
   font-weight: bold;
   color: #333;
+  text-align: center;
 }
 
 /* Button to open the dialog */
-button.open-crop-advisor {
+#cropAdvisor.cropAdvisor {
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #4CAF50;
@@ -1633,7 +1638,9 @@ button.open-crop-advisor {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-button.open-crop-advisor:hover {
+#cropAdvisor.cropAdvisor:hover {
   background-color: #45a049;
+}
