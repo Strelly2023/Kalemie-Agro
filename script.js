@@ -583,7 +583,20 @@ founder_note: "🌱 Message de Notre Fondateur : \"Kalemie Agro est plus qu'une 
     contact_email_info: "✉️ Email :",
     contact_phone_info: "☎️ Téléphone :",
     footer_follow: "🌐 Suivez-nous",
-    footer_copyright: "Kalemie Agro. Tous droits réservés."
+    footer_copyright: "Kalemie Agro. Tous droits réservés.",
+	testimonials_title: "🌟 What Our Customers Say",
+    testimonial_1: "\"Kalemie Agro’s poultry is always fresh and healthy. My family loves it!\" - Aline, Customer",
+    testimonial_2: "\"Thanks to their cassava products, my restaurant saves costs and keeps quality high.\" - Joseph, Restaurant Owner",
+
+    team_title: "👩‍🌾 Meet Our Team",
+    team_member_1: "Djuma Kikombe - Founder & CEO",
+    team_member_2: "Marie Kalume - Farm Manager",
+
+    blog_title: "📰 Latest News",
+    blog_1_title: "🌿 Sustainable Farming Tips",
+    blog_1_summary: "Learn how Kalemie Agro is helping farmers grow cassava more efficiently.",
+    blog_2_title: "🥚 Poultry Expansion",
+    blog_2_summary: "We’ve added 500 new layer hens to boost egg production."
   }
 };
 
