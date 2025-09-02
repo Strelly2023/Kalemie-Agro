@@ -203,7 +203,21 @@ founder_note: "🌱 From Our Founder: \"Kalemie Agro is more than a farm — it�
     contact_email_info: "✉️ Email:",
     contact_phone_info: "☎️ Phone:",
     footer_follow: "🌐 Follow Us",
-    footer_copyright: "Kalemie Agro. All rights reserved."
+    footer_copyright: "Kalemie Agro. All rights reserved.",
+
+	testimonials_title: "🌟 What Our Customers Say",
+    testimonial_1: "\"Kalemie Agro’s poultry is always fresh and healthy. My family loves it!\" - Aline, Customer",
+    testimonial_2: "\"Thanks to their cassava products, my restaurant saves costs and keeps quality high.\" - Joseph, Restaurant Owner",
+
+    team_title: "👩‍🌾 Meet Our Team",
+    team_member_1: "Djuma Kikombe - Founder & CEO",
+    team_member_2: "Marie Kalume - Farm Manager",
+
+    blog_title: "📰 Latest News",
+    blog_1_title: "🌿 Sustainable Farming Tips",
+    blog_1_summary: "Learn how Kalemie Agro is helping farmers grow cassava more efficiently.",
+    blog_2_title: "🥚 Poultry Expansion",
+    blog_2_summary: "We’ve added 500 new layer hens to boost egg production."
   },
 
   sw: {
@@ -393,7 +407,23 @@ founder_note: "🌱 Kutoka kwa Mwenza Mwanzilishi: \"Kalemie Agro ni zaidi ya sh
     contact_email_info: "✉️ Barua pepe:",
     contact_phone_info: "☎️ Simu:",
     footer_follow: "🌐 Tufuate",
-    footer_copyright: "Kalemie Agro. Haki zote zimehifadhiwa."
+    footer_copyright: "Kalemie Agro. Haki zote zimehifadhiwa.",
+
+
+	  testimonials_title: "🌟 Maoni ya Wateja Wetu",
+    testimonial_1: "\"Kuku wa Kalemie Agro huwa safi na wenye afya kila wakati. Familia yangu inaupenda!\" - Aline, Mteja",
+    testimonial_2: "\"Shukrani kwa bidhaa zao za mihogo, mgahawa wangu unaokoa gharama na kudumisha ubora.\" - Joseph, Mmiliki wa Mgahawa",
+
+    team_title: "👩‍🌾 Kutana na Timu Yetu",
+    team_member_1: "Djuma Kikombe - Mwanzilishi & Mkurugenzi Mkuu",
+    team_member_2: "Marie Kalume - Meneja wa Shamba",
+
+    blog_title: "📰 Habari Mpya",
+    blog_1_title: "🌿 Vidokezo vya Kilimo Endelevu",
+    blog_1_summary: "Jifunze jinsi Kalemie Agro inavyosaidia wakulima kukuza mihogo kwa ufanisi zaidi.",
+    blog_2_title: "🥚 Upanuzi wa Kuku",
+    blog_2_summary: "Tumeongeza kuku wa mayai 500 ili kuongeza uzalishaji wa mayai."
+  },
   },
 
   fr: {
@@ -583,7 +613,24 @@ founder_note: "🌱 Message de Notre Fondateur : \"Kalemie Agro est plus qu'une 
     contact_email_info: "✉️ Email :",
     contact_phone_info: "☎️ Téléphone :",
     footer_follow: "🌐 Suivez-nous",
-    footer_copyright: "Kalemie Agro. Tous droits réservés."
+    footer_copyright: "Kalemie Agro. Tous droits réservés.",
+
+
+
+	  
+    testimonials_title: "🌟 Ce que disent nos clients",
+    testimonial_1: "\"La volaille de Kalemie Agro est toujours fraîche et saine. Ma famille l'adore !\" - Aline, Cliente",
+    testimonial_2: "\"Grâce à leurs produits de manioc, mon restaurant réduit les coûts tout en maintenant une haute qualité.\" - Joseph, Propriétaire de restaurant",
+
+    team_title: "👩‍🌾 Rencontrez notre équipe",
+    team_member_1: "Djuma Kikombe - Fondateur & PDG",
+    team_member_2: "Marie Kalume - Responsable de la ferme",
+
+    blog_title: "📰 Dernières nouvelles",
+    blog_1_title: "🌿 Conseils pour une agriculture durable",
+    blog_1_summary: "Découvrez comment Kalemie Agro aide les agriculteurs à cultiver le manioc plus efficacement.",
+    blog_2_title: "🥚 Expansion de la volaille",
+    blog_2_summary: "Nous avons ajouté 500 nouvelles poules pondeuses pour augmenter la production d'œufs."
   }
 };
 
