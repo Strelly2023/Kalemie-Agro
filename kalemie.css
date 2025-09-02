@@ -1566,3 +1566,74 @@ nav a.active::after {
   border-radius: 8px;
 }
 
+/* AI Crop Advisor Dialog Styles */
+#cropAdvisorDialog {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  z-index: 1000;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+#cropAdvisorDialog h2 {
+  margin-top: 0;
+  color: #4CAF50;
+}
+
+#cropAdvisorForm label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#cropAdvisorForm select,
+#cropAdvisorForm input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#cropAdvisorForm button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#cropAdvisorForm button:hover {
+  background-color: #45a049;
+}
+
+#recommendationResult {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Button to open the dialog */
+button.open-crop-advisor {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.open-crop-advisor:hover {
+  background-color: #45a049;
