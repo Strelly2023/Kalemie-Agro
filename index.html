@@ -885,6 +885,70 @@ function recommendCrop() {
   document.getElementById('recommendationResult').innerText = recommendation;
 }
 </script>
+  <script>
+async function getWeather() {
+  const location = document.getElementById('location').value;
+  const apiKey = '5d6e4f16f93acc22c31a19091dd9dedc'; //'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`;
+
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    if (data.cod === 200) {
+      const temp = data.main.temp;
+      const weather = data.weather[0].description;
+      const advice = temp > 25 ? "Consider planting drought-resistant crops." : "Good conditions for most crops.";
+
+      document.getElementById('weatherResult').innerText =
+        `Temperature: ${temp}°C\nCondition: ${weather}\nAdvice: ${advice}`;
+    } else {
+      document.getElementById('weatherResult').innerText = "Location not found.";
+    }
+  } catch (error) {
+    document.getElementById('weatherResult').innerText = "Error fetching weather data.";
+  }
+}
+</script>
+  <script>
+function checkSoil() {
+  const ph = parseFloat(document.getElementById('ph').value);
+  const texture = document.getElementById('texture').value;
+  const organic = parseFloat(document.getElementById('organic').value);
+  const moisture = parseFloat(document.getElementById('moisture').value);
+
+  let fertility = "Moderate";
+  let treatment = "Add compost and monitor moisture.";
+
+  if (ph >= 6 && ph <= 7 && organic > 3 && moisture > 20) {
+    fertility = "High";
+    treatment = "Soil is fertile. Maintain current practices.";
+  } else if (ph < 5.5 || organic < 2) {
+    fertility = "Low";
+    treatment = "Add lime and organic matter.";
+  }
+
+  document.getElementById('soilResult').innerText =
+    `Fertility: ${fertility}\nTreatment Suggestion: ${treatment}`;
+}
+</script>
+  <script>
+function calculateYield() {
+  const crop = document.getElementById('crop').value;
+  const area = parseFloat(document.getElementById('area').value);
+  const seedRate = parseFloat(document.getElementById('seedRate').value);
+  const yieldRate = parseFloat(document.getElementById('yieldRate').value);
+
+  if (isNaN(area) || isNaN(seedRate) || isNaN(yieldRate)) {
+    document.getElementById('yieldResult').innerText = "Please enter valid numbers.";
+    return;
+  }
+
+  const totalYield = area * yieldRate;
+  document.getElementById('yieldResult').innerText =
+    `Estimated Yield for ${crop}: ${totalYield.toFixed(2)} kg`;
+}
+</script>
 
 <!-- Footer -->
 <!-- Footer -->
