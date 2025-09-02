@@ -423,7 +423,7 @@ founder_note: "🌱 Kutoka kwa Mwenza Mwanzilishi: \"Kalemie Agro ni zaidi ya sh
     blog_1_summary: "Jifunze jinsi Kalemie Agro inavyosaidia wakulima kukuza mihogo kwa ufanisi zaidi.",
     blog_2_title: "🥚 Upanuzi wa Kuku",
     blog_2_summary: "Tumeongeza kuku wa mayai 500 ili kuongeza uzalishaji wa mayai."
-  },
+
   },
 
   fr: {
