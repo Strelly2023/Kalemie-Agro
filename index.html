@@ -101,7 +101,7 @@
         <li><a href="#services" data-i18n="nav_services">🛠 Services</a></li>
         <li><a href="#impact" data-i18n="nav_impact">🌍 Impact</a></li>
         <li><a href="#about" data-i18n="nav_about">ℹ️ About</a></li>
-        <li><a href="#contact" class="btn" data-i18n="nav_order">📦 Order / Quote</a></li>
+        <li><a href="#contact" class="btn order-btn" class="btn" data-i18n="nav_order">📦 Order / Quote</a></li>
       </ul>
     </nav>
 
@@ -242,7 +242,6 @@
   </div>
 </section>
 <!-- End or our work -->
-
 <!--Section 4-->
 <!-- Products Section -->
 <section id="products" class="products">
@@ -253,23 +252,86 @@
     <!-- Poultry -->
     <h3 class="product-category" data-i18n="category_poultry">🐓 Poultry</h3>
     <div class="product-grid">
+
+      <!-- Fresh Eggs -->
       <div class="product-card fade-in">
         <img src="images/eggs.jpg" alt="Fresh eggs">
         <h3 data-i18n="product_eggs">🥚 Fresh Eggs</h3>
-        <p data-i18n="product_eggs_desc">Farm-fresh eggs collected daily, rich in nutrients and ideal for households and businesses.</p>
+        <p data-i18n="product_eggs_desc">
+          Nutritious farm-fresh eggs, rich in protein and collected daily for guaranteed freshness.
+        </p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
       </div>
 
+      <!-- Fresh Chicken -->
       <div class="product-card fade-in">
-        <img src="images/broiler.jpg" alt="Broilers">
-        <h3 data-i18n="product_chicken">🍗 Broilers</h3>
-        <p data-i18n="product_chicken_desc">High-quality broiler chicken, hygienically processed for home or retail markets.</p>
+        <img src="images/chicken.jpg" alt="Fresh chicken meat">
+        <h3 data-i18n="product_chicken">🍗 Fresh Chicken</h3>
+        <p data-i18n="product_chicken_desc">
+          Healthy, free-range chickens raised naturally for tender and flavorful meat.
+        </p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
       </div>
 
+      <!-- Processed Chicken Meat -->
+      <div class="product-card fade-in">
+        <img src="images/chicken-processed.jpg" alt="Processed chicken meat">
+        <h3 data-i18n="product_chicken_meat">🍖 Processed Chicken Meat</h3>
+        <p data-i18n="product_chicken_meat_desc">
+          Hygienically processed chicken meat — clean, safe, and ready for cooking in your favorite dishes.
+        </p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
+      </div>
+
+      <!-- Value-Added Poultry Products -->
+      <div class="product-card fade-in">
+        <img src="images/smoked-chicken.jpg" alt="Smoked or frozen chicken cuts">
+        <h3 data-i18n="product_value_poultry">🔥 Smoked & Frozen Cuts</h3>
+        <p data-i18n="product_value_poultry_desc">
+          Convenient smoked chicken and frozen cuts — preserving taste, freshness, and nutrition for longer shelf life.
+        </p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
+      </div>
+
+    </div>
+
+    <!-- Fertilizers -->
+    <h3 class="product-category" data-i18n="category_fertilizers">🌿 Fertilizers</h3>
+    <div class="product-grid">
+
+      <!-- Organic Manure -->
       <div class="product-card fade-in">
         <img src="images/manure.jpg" alt="Organic manure">
-        <h3 data-i18n="product_manure">🌱💩 Organic Manure</h3>
-        <p data-i18n="product_manure_desc">Natural poultry manure, eco-friendly and effective for enriching soil fertility.</p>
+        <h3 data-i18n="manure_title">🌱 Organic Manure</h3>
+        <p data-i18n="manure_desc">
+          Poultry-based fertilizer that enriches soil naturally and sustainably.
+          Eco-friendly and highly effective in boosting soil fertility and crop yields.
+        </p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
       </div>
+
+      <!-- Compost Mix -->
+      <div class="product-card fade-in">
+        <img src="images/compost.jpg" alt="Compost mix">
+        <h3 data-i18n="compost_title">🍂 Compost Mix</h3>
+        <p data-i18n="compost_desc">
+          Nutrient-rich compost made from organic waste, perfect for improving soil structure,
+          water retention, and promoting healthy plant growth.
+        </p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
+      </div>
+
+      <!-- Biofertilizer -->
+      <div class="product-card fade-in">
+        <img src="images/biofertilizer.jpg" alt="Biofertilizer">
+        <h3 data-i18n="biofertilizer_title">🧪 Biofertilizer</h3>
+        <p data-i18n="biofertilizer_desc">
+          Microbial-based fertilizer that enhances nutrient uptake,
+          supports plant immunity, and promotes sustainable farming practices.
+        </p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
+      </div>
+
     </div>
 
     <!-- Cassava -->
@@ -278,19 +340,24 @@
       <div class="product-card fade-in">
         <img src="images/flour.jpg" alt="Cassava flour">
         <h3 data-i18n="product_flour">🌾 Cassava Flour</h3>
-        <p data-i18n="product_four_desc">Finely processed cassava flour from locally grown roots, perfect for cooking and baking.</p>
+        <p data-i18n="product_flour_desc">Finely processed cassava flour from locally grown roots, perfect for cooking and baking.</p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
       </div>
 
       <div class="product-card fade-in">
-        <img src="images/cassava-chips.png" alt="Cassava chips">
-        <h3 data-i18n="chips">🍘 Cassava Chips</h3>
-        <p data-i18n="chips-desc">Crunchy and tasty cassava chips, ideal as a healthy snack option.</p>
+        <img src="images/cassava-chips.png" alt="Cassava Chips - Healthy Snack">
+        <h3 data-i18n="product_chips">🍘 Cassava Chips</h3>
+        <p data-i18n="product_chips_desc">
+          Crunchy and tasty cassava chips, ideal as a healthy snack option.
+        </p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
       </div>
 
       <div class="product-card fade-in">
         <img src="images/cassava-starch.jpg" alt="Cassava starch">
         <h3 data-i18n="product_starch">🧂 Cassava Starch</h3>
         <p data-i18n="product_starch_desc">Pure cassava starch for household and industrial use.</p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
       </div>
     </div>
 
@@ -301,12 +368,28 @@
         <img src="images/fruits.jpg" alt="Fresh fruits">
         <h3 data-i18n="product_fruits">🍍 Fresh Fruits</h3>
         <p data-i18n="product_fruits_desc">Locally grown fruits, hand-picked for freshness, quality, and taste.</p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
       </div>
 
       <div class="product-card fade-in">
         <img src="images/fruit-juice.jpg" alt="Natural fruit juice">
-        <h3 data-i18n="product_juice">🥤 Juices & Jams</h3>
-        <p data-i18n="product_juice_desc">Delicious juices and jams made from mango, pineapple, and guava — rich in flavor and nutrients.</p>
+        <h3 data-i18n="product_juice">🥤 Juices</h3>
+        <p data-i18n="product_juice_desc">Refreshing juices made from mango, pineapple, and guava — natural and nutrient-rich.</p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="images/jams.jpg" alt="Fruit jams">
+        <h3 data-i18n="product_jams">🍯 Jams</h3>
+        <p data-i18n="product_jams_desc">Sweet and healthy jams crafted from tropical fruits for your breakfast table.</p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
+      </div>
+
+      <div class="product-card fade-in">
+        <img src="images/dried-fruits.jpg" alt="Dried fruits">
+        <h3 data-i18n="product_dried">🥭 Dried Fruits</h3>
+        <p data-i18n="product_dried_desc">Naturally dried mangoes, pineapples, and bananas — perfect snacks full of energy.</p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
       </div>
     </div>
 
@@ -317,23 +400,28 @@
         <img src="images/maize.jpg" alt="Maize">
         <h3 data-i18n="product_maize">🌽 Maize</h3>
         <p data-i18n="product_maize_desc">Upcoming maize cultivation to expand food supply and farming value chains.</p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
       </div>
 
       <div class="product-card fade-in">
         <img src="images/beans.jpg" alt="Beans">
         <h3 data-i18n="product_beans">🫘 Beans</h3>
         <p data-i18n="product_beans_desc">Nutrient-rich beans, grown locally to support food security.</p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
       </div>
 
       <div class="product-card fade-in">
         <img src="images/vegetables.jpg" alt="Vegetables">
         <h3 data-i18n="product_vegetables">🥦 Vegetables</h3>
         <p data-i18n="product_vegetables_desc">Fresh vegetables to promote healthy diets for local communities.</p>
+        <button class="btn order-btn" data-i18n="btn_order">🛒 Order Now</button>
       </div>
     </div>
+
   </div>
 </section>
 <!-- End Products Section -->
+
 
 <!--Section 5-->
 <!-- Services Section -->
@@ -393,9 +481,8 @@
 <!-- Impact Section -->
 <section id="impact" class="impact">
   <div class="container">
-    <h2 data-i18n="impact_title">Our Impact</h2>
-    <p class="subtitle" data-i18n="impact_subtitle">See how Kalemie Agro is transforming agriculture and livelihoods in the region.</p>
-
+  <h2 data-i18n="impact_title">🌍 Our Impact</h2>
+<p class="subtitle" data-i18n="impact_subtitle">🌱 See how Kalemie Agro is transforming agriculture and livelihoods in the region.</p>
     <div class="impact-grid">
       <div class="impact-card fade-in">
         <div class="icon">🐔</div>
