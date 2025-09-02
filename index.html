@@ -571,6 +571,34 @@
 </section>
 <!-- End About Us Section -->
 
+<!-- AI Crop Advisor Dialog -->
+<div id="cropAdvisorDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #4CAF50; border-radius:10px; z-index:1000;">
+  <h2>AI Crop Advisor</h2>
+  <form id="cropAdvisorForm">
+    <label for="soilType">Soil Type:</label>
+    <select id="soilType" name="soilType">
+      <option value="sandy">Sandy</option>
+      <option value="clay">Clay</option>
+      <option value="loamy">Loamy</option>
+    </select><br><br>
+
+    <label for="region">Region:</label>
+    <input type="text" id="region" name="region"><br><br>
+
+    <label for="season">Season:</label>
+    <select id="season" name="season">
+      <option value="dry">Dry</option>
+      <option value="rainy">Rainy</option>
+    </select><br><br>
+
+    <button type="button" onclick="recommendCrop()">Get Recommendation</button>
+    <button type="button" onclick="document.getElementById('cropAdvisorDialog').style.display='none'">Close</button>
+  </form>
+  <div id="recommendationResult" style="margin-top:15px; font-weight:bold;"></div>
+</div>
+
+<!-- Button to open the dialog -->
+<button onclick="document.getElementById('cropAdvisorDialog').style.display='block'">Open AI Crop Advisor</button>
 
 
 <!-- FAQ -->
@@ -783,6 +811,26 @@
 -->
 <!-- Back to Top Button -->
 <button class="back-to-top" data-i18n="back_to_top">⬆️ Top</button>
+  <script>
+function recommendCrop() {
+  const soil = document.getElementById('soilType').value;
+  const season = document.getElementById('season').value;
+  let recommendation = '';
+
+  if (soil === 'sandy' && season === 'dry') {
+    recommendation = 'Recommended Crop: Cassava';
+  } else if (soil === 'clay' && season === 'rainy') {
+    recommendation = 'Recommended Crop: Rice';
+  } else if (soil === 'loamy' && season === 'rainy') {
+    recommendation = 'Recommended Crop: Maize';
+  } else {
+    recommendation = 'Recommended Crop: Beans';
+  }
+
+  document.getElementById('recommendationResult').innerText = recommendation;
+}
+</script>
+
 <!-- Footer -->
 <!-- Footer -->
 <footer class="footer">
