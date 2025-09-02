@@ -393,7 +393,20 @@ founder_note: "🌱 Kutoka kwa Mwenza Mwanzilishi: \"Kalemie Agro ni zaidi ya sh
     contact_email_info: "✉️ Barua pepe:",
     contact_phone_info: "☎️ Simu:",
     footer_follow: "🌐 Tufuate",
-    footer_copyright: "Kalemie Agro. Haki zote zimehifadhiwa."
+    footer_copyright: "Kalemie Agro. Haki zote zimehifadhiwa.",
+	testimonials_title: "🌟 Maoni ya Wateja Wetu",
+    testimonial_1: "\"Kuku wa Kalemie Agro huwa safi na wenye afya kila wakati. Familia yangu inaupenda!\" - Aline, Mteja",
+    testimonial_2: "\"Shukrani kwa bidhaa zao za mihogo, mgahawa wangu unaokoa gharama na kudumisha ubora.\" - Joseph, Mmiliki wa Mgahawa",
+
+    team_title: "👩‍🌾 Kutana na Timu Yetu",
+    team_member_1: "Djuma Kikombe - Mwanzilishi & Mkurugenzi Mkuu",
+    team_member_2: "Marie Kalume - Meneja wa Shamba",
+
+    blog_title: "📰 Habari Mpya",
+    blog_1_title: "🌿 Vidokezo vya Kilimo Endelevu",
+    blog_1_summary: "Jifunze jinsi Kalemie Agro inavyosaidia wakulima kukuza mihogo kwa ufanisi zaidi.",
+    blog_2_title: "🥚 Upanuzi wa Kuku",
+    blog_2_summary: "Tumeongeza kuku wa mayai 500 ili kuongeza uzalishaji wa mayai."
   },
 
   fr: {
