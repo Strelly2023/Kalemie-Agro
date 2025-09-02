@@ -573,7 +573,7 @@
 
 <!-- AI Crop Advisor Dialog -->
 <div id="cropAdvisorDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #4CAF50; border-radius:10px; z-index:1000;">
-  <h2>AI Crop Advisor</h2>
+  <h2 id="cropTitle">AI Crop Advisor</h2>
   <form id="cropAdvisorForm">
     <label for="soilType">Soil Type:</label>
     <select id="soilType" name="soilType">
@@ -598,7 +598,7 @@
 </div>
 
 <!-- Button to open the dialog -->
-<button onclick="document.getElementById('cropAdvisorDialog').style.display='block'">Open AI Crop Advisor</button>
+<button id="cropAdvisor" class="cropAdvisor" onclick="document.getElementById('cropAdvisorDialog').style.display='block'">Open AI Crop Advisor</button>
 
 
 <!-- FAQ -->
