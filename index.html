@@ -571,6 +571,12 @@
 </section>
 <!-- End About Us Section -->
 
+<!-- Buttons to open dialogs -->
+<button id="cropAdvisor" class="cropAdvisor" onclick="document.getElementById('cropAdvisorDialog').style.display='block'">Open AI Crop Advisor</button>
+<button id="weatherForecast" class="cropAdvisor" onclick="document.getElementById('weatherDialog').style.display='block'">Open Weather Forecast</button>
+<button id="soilHealth" class="cropAdvisor" onclick="document.getElementById('soilDialog').style.display='block'">Open Soil Health Checker</button>
+<button id="yieldCalc" class="cropAdvisor" onclick="document.getElementById('yieldDialog').style.display='block'">Open Yield Calculator</button>
+
 <!-- AI Crop Advisor Dialog -->
 <div id="cropAdvisorDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #4CAF50; border-radius:10px; z-index:1000;">
   <h2 id="cropTitle">AI Crop Advisor</h2>
@@ -597,8 +603,57 @@
   <div id="recommendationResult" style="margin-top:15px; font-weight:bold;"></div>
 </div>
 
-<!-- Button to open the dialog -->
-<button id="cropAdvisor" class="cropAdvisor" onclick="document.getElementById('cropAdvisorDialog').style.display='block'">Open AI Crop Advisor</button>
+<!-- Weather Forecast Dialog -->
+<div id="weatherDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #2196F3; border-radius:10px; z-index:1000;">
+  <h2>Weather Forecast</h2>
+  <form id="weatherForm">
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location"><br><br>
+    <button type="button" onclick="getWeather()">Get Forecast</button>
+    <button type="button" onclick="document.getElementById('weatherDialog').style.display='none'">Close</button>
+  </form>
+  <div id="weatherResult" style="margin-top:15px; font-weight:bold;"></div>
+</div>
+
+<!-- Soil Health Checker Dialog -->
+<div id="soilDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #FF9800; border-radius:10px; z-index:1000;">
+  <h2>Soil Health Checker</h2>
+  <form id="soilForm">
+    <label for="ph">pH Level:</label>
+    <input type="number" step="0.1" id="ph" name="ph"><br><br>
+    <label for="texture">Texture:</label>
+    <select id="texture" name="texture">
+      <option value="sandy">Sandy</option>
+      <option value="clay">Clay</option>
+      <option value="loamy">Loamy</option>
+    </select><br><br>
+    <label for="organic">Organic Matter (%):</label>
+    <input type="number" step="0.1" id="organic" name="organic"><br><br>
+    <label for="moisture">Moisture (%):</label>
+    <input type="number" step="0.1" id="moisture" name="moisture"><br><br>
+    <button type="button" onclick="checkSoil()">Check Soil</button>
+    <button type="button" onclick="document.getElementById('soilDialog').style.display='none'">Close</button>
+  </form>
+  <div id="soilResult" style="margin-top:15px; font-weight:bold;"></div>
+</div>
+
+<!-- Yield Calculator Dialog -->
+<div id="yieldDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #9C27B0; border-radius:10px; z-index:1000;">
+  <h2>Yield Calculator</h2>
+  <form id="yieldForm">
+    <label for="crop">Crop Type:</label>
+    <input type="text" id="crop" name="crop"><br><br>
+    <label for="area">Area (hectares):</label>
+    <input type="number" step="0.1" id="area" name="area"><br><br>
+    <label for="seedRate">Seed Rate (kg/ha):</label>
+    <input type="number" step="0.1" id="seedRate" name="seedRate"><br><br>
+    <label for="yieldRate">Expected Yield (kg/ha):</label>
+    <input type="number" step="0.1" id="yieldRate" name="yieldRate"><br><br>
+    <button type="button" onclick="calculateYield()">Calculate Yield</button>
+    <button type="button" onclick="document.getElementById('yieldDialog').style.display='none'">Close</button>
+  </form>
+  <div id="yieldResult" style="margin-top:15px; font-weight:bold;"></div>
+</div>
 
 
 <!-- FAQ -->
