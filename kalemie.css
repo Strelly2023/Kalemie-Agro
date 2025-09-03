@@ -1796,3 +1796,10 @@ form button:hover {
   color: #333;
   text-align: center;
 }
+
+#dateTimeDisplay {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
