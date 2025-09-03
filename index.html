@@ -177,7 +177,10 @@
       </div>
     </div>
   </div>
-  
+  <div id="dateTimeDisplay" style="text-align: center; font-size: 16px; color: #333; margin-bottom: 20px;">
+  <span id="currentDate"></span> | <span id="currentTime"></span>
+</div>
+
   <!-- ================= HERO / BANNER ================= -->
   <section id="hero">
     <div class="banner-container">
@@ -1044,5 +1047,20 @@ window.onload = function() {
   makeDraggable("yieldDialog");
 };
 </script>
+  <script>
+function updateDateTime() {
+  const now = new Date();
+  const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const timeOptions = { hour: '2-digit', minute: '2-digit', second: '2-digit' };
+
+  document.getElementById('currentDate').textContent = now.toLocaleDateString('en-US', dateOptions);
+  document.getElementById('currentTime').textContent = now.toLocaleTimeString('en-US', timeOptions);
+}
+
+// Update every second
+setInterval(updateDateTime, 1000);
+updateDateTime(); // Initial call
+</script>
+
 </body>
 </html>
