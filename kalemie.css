@@ -1685,3 +1685,114 @@ form button:hover {
   color: #333;
   text-align: center;
 }
+/* 🌟 Smart Tools Section */
+#smart-tools {
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-top: 2px solid #4CAF50;
+  text-align: center;
+}
+
+#smart-tools h2 {
+  color: #4CAF50;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#smart-tools p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Smart Tool Buttons */
+.smartToolBtn {
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.smartToolBtn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.smartToolBtn:active {
+  background-color: #3e8e41;
+  transform: scale(0.98);
+}
+
+/* Dialog Boxes */
+.dialogBox {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  z-index: 1000;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  resize: both;
+  overflow: auto;
+}
+
+.dialogBox h2 {
+  margin-top: 0;
+  color: #4CAF50;
+  cursor: move;
+  text-align: center;
+}
+
+.dialogBox form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.dialogBox form select,
+.dialogBox form input[type="text"],
+.dialogBox form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.dialogBox form button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dialogBox form button:hover {
+  background-color: #45a049;
+}
+
+.dialogBox .result {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
