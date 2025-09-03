@@ -570,12 +570,19 @@
   </div>
 </section>
 <!-- End About Us Section -->
-<section id="smart-tools">
-  <!-- Buttons to open dialogs -->
-  <button id="cropAdvisor" class="cropAdvisor" onclick="document.getElementById('cropAdvisorDialog').style.display='block'">Open AI Crop Advisor</button>
-  <button id="weatherForecast" class="cropAdvisor" onclick="document.getElementById('weatherDialog').style.display='block'">Open Weather Forecast</button>
-  <button id="soilHealth" class="cropAdvisor" onclick="document.getElementById('soilDialog').style.display='block'">Open Soil Health Checker</button>
-  <button id="yieldCalc" class="cropAdvisor" onclick="document.getElementById('yieldDialog').style.display='block'">Open Yield Calculator</button>
+  
+<section id="smart-tools" style="padding: 40px; background-color: #f9f9f9; border-top: 2px solid #4CAF50;">
+  <h2 style="text-align: center; color: #4CAF50;">🌟 Smart Tools</h2>
+  <p style="text-align: center; max-width: 700px; margin: 0 auto 30px; font-size: 16px; color: #555;">
+    Explore our interactive tools designed to assist farmers with crop recommendations, weather forecasts, soil health analysis, and yield estimation. These tools provide practical insights to support agricultural decision-making.
+  </p>
+
+  <div style="text-align: center;">
+    <button id="cropAdvisor" class="smartToolBtn" onclick="document.getElementById('cropAdvisorDialog').style.display='block'">Open AI Crop Advisor</button>
+    <button id="weatherForecast" class="smartToolBtn" onclick="document.getElementById('weatherDialog').style.display='block'">Open Weather Forecast</button>
+    <button id="soilHealth" class="smartToolBtn" onclick="document.getElementById('soilDialog').style.display='block'">Open Soil Health Checker</button>
+    <button id="yieldCalc" class="smartToolBtn" onclick="document.getElementById('yieldDialog').style.display='block'">Open Yield Calculator</button>
+  </div>
 
   <!-- AI Crop Advisor Dialog -->
   <div id="cropAdvisorDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #4CAF50; border-radius:10px; z-index:1000;">
