@@ -1007,6 +1007,42 @@ function calculateYield() {
     <p>&copy; <span id="year"></span> <span data-i18n="footer_copyright">Kalemie Agro. All rights reserved.</span></p>
   </div>
 </footer>
+<script>
+function makeDraggable(dialogId) {
+  const dialog = document.getElementById(dialogId);
+  const header = dialog.querySelector("h2");
+  let offsetX = 0, offsetY = 0, isDragging = false;
 
+  header.style.cursor = "move";
+
+  header.addEventListener("mousedown", function(e) {
+    offsetX = e.clientX - dialog.offsetLeft;
+    offsetY = e.clientY - dialog.offsetTop;
+    isDragging = true;
+    document.addEventListener("mousemove", moveDialog);
+    document.addEventListener("mouseup", stopDragging);
+  });
+
+  function moveDialog(e) {
+    if (isDragging) {
+      dialog.style.left = (e.clientX - offsetX) + "px";
+      dialog.style.top = (e.clientY - offsetY) + "px";
+    }
+  }
+
+  function stopDragging() {
+    isDragging = false;
+    document.removeEventListener("mousemove", moveDialog);
+    document.removeEventListener("mouseup", stopDragging);
+  }
+}
+
+window.onload = function() {
+  makeDraggable("cropAdvisorDialog");
+  makeDraggable("weatherDialog");
+  makeDraggable("soilDialog");
+  makeDraggable("yieldDialog");
+};
+</script>
 </body>
 </html>
