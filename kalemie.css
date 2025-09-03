@@ -1670,3 +1670,40 @@ nav a.active::after {
   transform: scale(0.98);
 }
 
+.smartToolBtn {
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.smartToolBtn:hover {
+  background-color: #45a049;
+}
+
+/* Dialog common styles */
+.dialogBox {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  z-index: 1000;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  resize: both;
+  overflow: auto;
+}
+.dialogBox h2 {
+  margin-top: 0;
+  color: #4CAF50;
+  cursor: move;
+}
