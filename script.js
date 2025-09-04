@@ -625,7 +625,222 @@ founder_note: "🌱 Message de Notre Fondateur : \"Kalemie Agro est plus qu'une 
     blog_1_summary: "Découvrez comment Kalemie Agro aide les agriculteurs à cultiver le manioc plus efficacement.",
     blog_2_title: "🥚 Expansion de la volaille",
     blog_2_summary: "Nous avons ajouté 500 nouvelles poules pondeuses pour augmenter la production d'œufs."
-  }
+  },
+
+  kirundi: {
+    /* Header / Navigation */
+    brand_tag: "Gufungura Imiryango",
+    menu: "Ikarata",
+    nav_home: "Ahabanza",
+    nav_work: "Ibikorwa vyacu",
+    nav_products: "Ibicuruzwa",
+    nav_services: "Serivisi",
+    nav_impact: "Ingaruka nziza",
+    nav_about: "Ibiranga",
+    nav_order: "Tegeka / Saba igiciro",
+    lang_label: "Ururimi:",
+
+  /* Hero Section */
+  hero_title: "Gufungura Imiryango biciye mu buhinzi burama",
+  hero_subtitle: "Guteza imbere Kalemie biciye mu nkoko, umwumbati, ivyamwa n'ugutunganya",
+  learn_more: "Menya vyinshi",
+  hero_pill: "Fishe • Ku giciro gito • Birama",
+  hero_quality: "Ibifungurwa vyiza vy’ubuhinzi bikorerwa Kalemie.",
+  hero_description: "Dukora inkoko, ifu y’umwumbati, n’ibivuye ku vyamwa dukoresheje isuku, dukura mu gihugu, kandi dufasha urwaruka n’abakenyezi kubona akazi.",
+  hero_order: "Tegeka",
+  hero_quote: "Saba igiciro",
+  sample_prices: "Ibiciro vy’icitegererezo",
+  price_eggs: "Ikarato y’amagi (30)",
+  price_flour: "Ifu y’umwumbati (1 kg)",
+  price_chicken: "Inkoko yose (1.5 kg)",
+
+  /* Our Work Section */
+  our_work_title: "🌱 Ibikorwa vyacu muri Kalemie Agro",
+  our_work_subtitle: "Kugwiza ibifungurwa no guteza imbere imibereho biciye mu buhinzi burama n’ugutunganya.",
+  work_poultry_title: "🐔 Ubworozi bw’inkoko",
+  work_poultry_desc: "Gutanga amagi meza n’inyama z’inkoko nziza ku miryango n’amashirahamwe yo muri Kalemie.",
+  work_cassava_title: "🌿 Umwumbati",
+  work_cassava_desc: "Kuva ku murima gushika ku ifu — turarima umwumbati tukawutunganya mu ifu isukuye kandi ku giciro gito.",
+  work_fruit_title: "🍊 Ivyo kurima ivyamwa &amp; imitobe",
+  work_fruit_desc: "Kurima ivyamwa vyo mu gihugu no gukora imitobe karemano, bigafasha kurya neza no kugabanya ivyo dutumiza hanze.",
+  work_processing_title: "🏭 Gutunganya &amp; Kwongeza agaciro",
+  work_processing_desc: "Guhindura umwimbu mu bicuruzwa bipakiye, bikarema akazi ku rwaruka n’abakenyezi bo muri Kalemie.",
+  impact_note: "💡 Ingaruka: Duhurije hamwe ubuhinzi n’ugutunganya, dutanga ibifungurwa ku giciro gito, dufasha imiryango, kandi dukomeza ubukungu bwa Kalemie.",
+
+  /* Products Section */
+  products_title: "🛒 Ibicuruzwa vyacu",
+  products_subtitle: "Ibifungurwa bishasha, bifise intungamubiri, kandi bikorerwa Kalemie.",
+
+  /* Categories */
+  category_poultry: "🐓 Inkoko",
+  category_fertilizers: "🌿 Ifumbire",
+  category_cassava: "🌿 Umwumbati",
+  category_fruits: "🍊 Ivyamwa &amp; Imitobe",
+  category_future: "🌱 Imirima y’ahazaza",
+
+  /* Poultry Products */
+  product_eggs: "🥚 Amagi mashasha",
+  product_eggs_desc: "Amagi y’inkoko yakuwe ku murima, afise intungamubiri, kandi akoranywa buri munsi kugira ngo agume afise ubuziranenge.",
+  product_chicken: "🍗 Inkoko nshasha",
+  product_chicken_desc: "Inkoko zakuze mu buryo karemano, zifise inyama zoroshe kandi ziryoshe.",
+  product_chicken_meat: "🍖 Inyama z’inkoko zatunganijwe",
+  product_chicken_meat_desc: "Inyama z’inkoko zatunganijwe mu buryo bw’isuku — zisukuye, zitekanye, kandi ziteguye gutekwa.",
+  product_value_poultry: "🔥 Inkoko yotswe &amp; y’akazuyazi",
+  product_value_poultry_desc: "Inkoko yotswe n’inyama z’akazuyazi — bigumiza uburyohe, isuku, n’intungamubiri kugira ngo bimare igihe kirekire.",
+
+  /* Fertilizers */
+  manure_title: "🌱 Ifumbire karemano",
+  manure_desc: "Ifumbire ikorwa n’inkoko, yongera ubutare mu butaka mu buryo burama. Irengera ibidukikije kandi irafasha cane mu kwimbura.",
+  compost_title: "🍂 Ifumbire y’ivyatsi",
+  compost_desc: "Ifumbire ikungahaye ku ntungamubiri ikozwe mu bisigazwa karemano, ikongera ubutaka, ikagumiza amazi, kandi ikongera umwimbu.",
+  biofertilizer_title: "🧪 Ifumbire ya mikorobe",
+  biofertilizer_desc: "Ifumbire ikozwe n’imikorobe, ifasha ibiterwa gukura neza, kwihanganira indwara, no kurima mu buryo burama.",
+
+  /* Cassava */
+  product_flour: "🌾 Ifu y’umwumbati",
+  product_flour_desc: "Ifu y’umwumbati yatunganijwe neza kuva ku mwumbati w’iwacu, ikwiriye guteka no gukora ibifungurwa.",
+  product_chips: "🍘 Ibisate vy’umwumbati",
+  product_chips_desc: "Ibisate vy’umwumbati biryoshe kandi bikomeye — ibifungurwa vyiza vy’akarusho.",
+  product_starch: "🧂 Isukari y’umwumbati",
+  product_starch_desc: "Isukari y’umwumbati isukuye ikoreshwa mu rugo no mu nganda.",
+
+  /* Fruits &amp; Juices */
+  product_fruits: "🍍 Ivyamwa bishasha",
+  product_fruits_desc: "Ivyo kurima vyo mu gihugu, vyatoranijwe kugira bifise ubuziranenge n’uburyohe.",
+  product_juice: "🥤 Imitobe",
+  product_juice_desc: "Imitobe iryohera ikozwe mu manga, ananas, na guava — karemano kandi irimwo intungamubiri.",
+  product_jams: "🍯 Ibisuguti",
+  product_jams_desc: "Ibisuguti birimwo isukari n’intungamubiri bikozwe mu vyamwa vyo mu karere.",
+  product_dried: "🥭 Ivyamwa vyumye",
+  product_dried_desc: "Ivyo kurya vyumye nk’amanga, ananas, n’ibitoke — ibifungurwa vyuzuye inguvu.",
+
+  /* Future Crops */
+  product_maize: "🌽 Ibigori",
+  product_maize_desc: "Ubwimbu bw’ibigori buzotangura vuba kugira ngo bwongere ibifungurwa n’agaciro k’uburimyi.",
+  product_beans: "🫘 Ibitoke",
+  product_beans_desc: "Ibitoke bifise intungamubiri, bikorerwa iwacu kugira ngo bifashe mu kurwanya inzara.",
+  product_vegetables: "🥦 Imboga",
+  product_vegetables_desc: "Imboga nshasha zigafasha kurya neza mu miryango yo mu gihugu.",
+
+  /* Button */
+  btn_order: "🛒 Tegeka ubu",
+
+  /* Services Section */
+  services_title: "✨ Serivisi zacu",
+  services_subtitle: "Turarenza ibicuruzwa, dutanga serivisi zifasha abahinzi, amashirahamwe, n’imiryango yo mu gihugu.",
+  service_poultry_title: "🐔 Gutanga inkoko &amp; amagi",
+  service_poultry_desc: "Gutanga amagi mashasha n’inyama z’inkoko zatunganijwe ku miryango, amaresitora, n’abadandaza bo muri Kalemie.",
+  service_cassava_title: "🌿 Gutanga umwumbati &amp; ifu",
+  service_cassava_desc: "Dutanga ifu y’umwumbati isukuye ku masoko, abateka, n’abadandaza ku giciro gito.",
+  service_fruits_title: "🍊 Kurima ivyamwa &amp; gutunganya imitobe",
+  service_fruits_desc: "Gufasha mu kurima ivyamwa no gutunganya imitobe karemano igurishwa mu gihugu.",
+  service_training_title: "📘 Amahugurwa &amp; Inkunga",
+  service_training_desc: "Guhugura abahinzi bato, urwaruka, n’abakenyezi ku buhinzi burama n’ugutunganya.",
+  service_packaging_title: "📦 Gutunganya ibipaki &amp; gutanga ibicuruzwa",
+  service_packaging_desc: "Gutanga ibisubizo vy’ibipaki vyihariye n’ugutanga ibicuruzwa ku bwinshi ku mashirahamwe, ibirori, n’imigambi y’imiryango.",
+  service_community_title: "🤝 Gufasha imiryango",
+  service_community_desc: "Imigambi ifasha mu kurwanya inzara, kurema akazi, no guteza imbere ubukungu bwa Kalemie.",
+
+  /* Impact Section */
+  impact_title: "🌍 Ingaruka zacu",
+  impact_subtitle: "🌱 Raba ukuntu Kalemie Agro ihindura uburimyi n’imibereho muri ako karere.",
+  impact_food: "Umutekano w’ibifungurwa",
+  impact_food_desc: "Gutanga amagi mashasha, inkoko, n’ibifungurwa bikorerwa iwacu kugira ngo imiryango ibone ibifungurwa bifise intungamubiri.",
+  impact_sustainable: "Ubuhinzi burama",
+  impact_sustainable_desc: "Gukoresha uburyo burengera ibidukikije mu kurima no gutunganya kugira ngo ubutaka bugume bufise ubuzima.",
+  impact_jobs: "Kurema akazi",
+  impact_jobs_desc: "Gutanga akazi n’amahugurwa ku rwaruka n’abakenyezi bo muri Kalemie.",
+  impact_empower: "Guteza imbere imiryango",
+  impact_empower_desc: "Gufasha abahinzi, abadandaza, n’imiryango kugira ngo bagire iterambere ry’ubukungu n’imibereho.",
+  impact_growth: "Iterambere ry’ubukungu",
+  impact_growth_desc: "Guteza imbere ubukungu bwa Kalemie biciye mu gutunganya no gushikana ibicuruzwa ku masoko.",
+  impact_environment: "Kwubahiriza ibidukikije",
+  impact_environment_desc: "Kugabanya umwavu, gukoresha ibikoresho bisubirwamwo, no guteza imbere uburyo burama mu bikorwa vyacu.",
+
+  /* About Section */
+  about_title: "🌾 Ibiranga Kalemie Agro",
+  about_subtitle: "🌱 Twiyemeje uburimyi burama, guteza imbere abanyagihugu, no gutanga ibifungurwa bifise intungamubiri kuri bose.",
+  about_mission_title: "🎯 Intumbero yacu",
+  about_mission_desc: "🍎 Gutanga ibifungurwa bishasha, bifise intungamubiri, kandi ku giciro gito, tukarema amahirwe y’ubukungu ku rwaruka n’abakenyezi bo muri Kalemie.",
+  about_vision_title: "🔭 Icyerekezo cacu",
+  about_vision_desc: "🏆 Kuba ishirahamwe riyoboye mu buhinzi muri ako karere, rizwi ku burama, ingaruka nziza ku muryango, n’ibicuruzwa bifise ubuziranenge.",
+  about_values_title: "💎 Indangagaciro zacu",
+  about_values_desc: "🤝 Ukuri, 🌱 uburama, 👥 guteza imbere abanyagihugu, ✅ ubuziranenge, na 💡 udushasha ni indangagaciro ziduha intumbero.",
+  about_why_title: "❓ Kubera iki mutuhitamwo?",
+  about_why_desc: "🌾 Duhuza ubuhinga bugezweho mu buhinzi, gutunganya mu buryo bw’isuku, no gukura ibikoresho mu gihugu kugira dutange ibicuruzwa vyizewe.",
+  founder_note: "🌱 Ijambo ry’Umushingantahe: \"Kalemie Agro si umurima gusa — ni umugambi wo gufungura imiryango, guteza imbere abantu bacu, no kurengera ubutaka bwacu ku banyuma.\"",
+
+  /* FAQ Section */
+  faq_title: "Ibibazo Bikunze Kubazwa",
+  faq_delivery_q: "Muratanga ibicuruzwa ku mashure n’amarestora?",
+  faq_delivery_a: "Ego. Dutanga ibicuruzwa ku bwinshi ku gihe hamwe n’amasezerano.",
+  faq_lab_q: "Ibicuruzwa vyanyu birageragezwa mu biharuro?",
+  faq_lab_a: "Turakora ubugerageza bw’ubushuhe ku ifu y’umwumbati hamwe n’ivyigwa vy’inkoko n’abaveterineri.",
+  faq_subscribe_q: "Imiryango irashobora kwiyandikisha kugira ibone amagi?",
+  faq_subscribe_a: "Yego cane. Hariho uburyo bwo kwiyandikisha ku ndwi no ku kwezi ku miryango.",
+  faq_organic_q: "Mukoreshwa ifumbire karemano canke imiti?",
+  faq_organic_a: "Duharanira uburimyi burama dukoresha imiti mikeya, tukaha agaciro ifumbire karemano aho bishoboka.",
+  faq_bulk_q: "Noshobora gutegeka ibicuruzwa ku bwinshi gute?",
+  faq_bulk_a: "Urashobora kutwandikira biciye ku fomu yo gutumako, terefone, canke WhatsApp kugira utegure itangwa ry’ibicuruzwa ku bwinshi.",
+  faq_future_q: "Ni ibiterwa ibihe bitegekanijwe mu gihe kizokwira?",
+  faq_future_a: "Turiko twagura ibikorwa mu bigori, ibitoke, n’imboga z’ibihe kugira twongere ibifungurwa.",
+  faq_visit_q: "Noshobora gusura umurima?",
+  faq_visit_a: "Yego! Turakira gusura kw’abanyagihugu, amashure, n’abafatanyabikorwa biciye ku masezerano.",
+  faq_training_q: "Muratanga amahugurwa ku bahinzi?",
+  faq_training_a: "Turategura amahugurwa ku bworozi bw’inkoko, gutunganya umwumbati, n’uburimyi burama.",
+
+  /* Contact Section */
+  contact_title: "Tegeka canke Saba Igiciro",
+  contact_subtitle: "Nuzuza ifishi iri hasi, tukuzosubiza vuba.",
+  contact_name: "Izina ryuzuye",
+  contact_email: "Aderesi ya Email",
+  contact_phone: "Numero ya Terefone",
+  contact_type: "Ubwoko bw’ico usaba",
+  contact_type_order: "Tegeka",
+  contact_type_quote: "Saba Igiciro",
+  contact_message: "Ibisobanuro / Ivyo wifuza vyihariye",
+  contact_submit: "Rungika",
+  contact_info_title: "Amakuru yo Kutwandikira",
+  contact_address: "Umurima wa Kalemie Agro, Kalemie, RDC",
+  contact_email_info: "info@kalemieagro.com",
+  contact_phone_info: "+243 123 456 789",
+  contact_response_time: "Turasubiza mu masaha 24!",
+  contact_service_area: "Aho dukorera: Kalemie n’akarere kihegereye. Dutanga ibicuruzwa ku ndwi no mu mpera z’indwi.",
+  back_to_top: "⬆️ Hejuru",
+
+  /* Footer */
+  footer_brand_slogan: "Kuva ku murima gushika ku meza — tubikora n’urukundo",
+  footer_quicklinks: "🔗 Imiyoboro yihuta",
+  nav_home: "🏠 Ahabanza",
+  nav_about: "👨‍🌾 Ibiranga",
+  nav_services: "🛠️ Serivisi",
+  nav_products: "🌿 Ibicuruzwa",
+  nav_contact: "✉️ Kutwandikira",
+  footer_contact: "📞 Twandikire",
+  contact_address: "📍 Aderesi:",
+  contact_email_info: "✉️ Email:",
+  contact_phone_info: "☎️ Terefone:",
+  footer_follow: "🌐 Dukurikire",
+  footer_copyright: "Kalemie Agro. Uburenganzira bwose burabitswe.",
+
+  /* Testimonials */
+  testimonials_title: "🌟 Ivyo Abakiriya Bavuga",
+  testimonial_1: "\"Inkoko za Kalemie Agro ziba nshasha kandi zifise ubuzima. Umuryango wanje urazikunda!\" - Aline, Umukiriya",
+  testimonial_2: "\"Kubera ibicuruzwa vy’umwumbati, resitora yanje irunguka kandi igumiza ubuziranenge.\" - Joseph, Umuyobozi wa Resitora",
+
+  /* Team */
+  team_title: "👩‍🌾 Menya Ikipe yacu",
+  team_member_1: "Djuma Kikombe - Umushingantahe &amp; Umuyobozi Mukuru",
+  team_member_2: "Marie Kalume - Umuyobozi w’Umurima",
+
+  /* Blog */
+  blog_title: "📰 Inkuru nshasha",
+  blog_1_title: "🌿 Inama ku Bihinzi Burama",
+  blog_1_summary: "Menya ukuntu Kalemie Agro ifasha abahinzi kurima umwumbati neza.",
+  blog_2_title: "🥚 Kwagura Ubworozi bw’Inkoko",
+  blog_2_summary: "Twongereye inkoko 500 zishobora gutanga amagi kugira twongere umwimbu."
+}
+
 };
 
 
