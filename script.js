@@ -627,7 +627,7 @@ founder_note: "🌱 Message de Notre Fondateur : \"Kalemie Agro est plus qu'une 
     blog_2_summary: "Nous avons ajouté 500 nouvelles poules pondeuses pour augmenter la production d'œufs."
   },
 
-  kirundi: {
+  bi: {
     /* Header / Navigation */
     brand_tag: "Gufungura Imiryango",
     menu: "Ikarata",
