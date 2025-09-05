@@ -592,87 +592,83 @@
     <button id="yieldCalc" class="smartToolBtn" onclick="document.getElementById('yieldDialog').style.display='block'" data-i18n="open_yield_calc">Open Yield Calculator</button>
   </div>
 </section>
+<!-- AI Crop Advisor Dialog -->
+<div id="cropAdvisorDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #4CAF50; border-radius:10px; z-index:1000;">
+  <h2 id="cropTitle" data-i18n="cropAdvisor.title">AI Crop Advisor</h2>
+  <form id="cropAdvisorForm">
+    <label for="soilType" data-i18n="cropAdvisor.soilType">Soil Type:</label>
+    <select id="soilType" name="soilType">
+      <option value="sandy" data-i18n="soilType.sandy">Sandy</option>
+      <option value="clay" data-i18n="soilType.clay">Clay</option>
+      <option value="loamy" data-i18n="soilType.loamy">Loamy</option>
+    </select><br><br>
 
-  <!-- AI Crop Advisor Dialog -->
-  <div id="cropAdvisorDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #4CAF50; border-radius:10px; z-index:1000;">
-    <h2 id="cropTitle">AI Crop Advisor</h2>
-    <form id="cropAdvisorForm">
-      <label for="soilType">Soil Type:</label>
-      <select id="soilType" name="soilType">
-        <option value="sandy">Sandy</option>
-        <option value="clay">Clay</option>
-        <option value="loamy">Loamy</option>
-      </select><br><br>
+    <label for="region" data-i18n="cropAdvisor.region">Region:</label>
+    <input type="text" id="region" name="region"><br><br>
 
-      <label for="region">Region:</label>
-      <input type="text" id="region" name="region"><br><br>
+    <label for="season" data-i18n="cropAdvisor.season">Season:</label>
+    <select id="season" name="season">
+      <option value="dry" data-i18n="season.dry">Dry</option>
+      <option value="rainy" data-i18n="season.rainy">Rainy</option>
+    </select><br><br>
 
-      <label for="season">Season:</label>
-      <select id="season" name="season">
-        <option value="dry">Dry</option>
-        <option value="rainy">Rainy</option>
-      </select><br><br>
+    <button type="button" onclick="recommendCrop()" data-i18n="cropAdvisor.getRecommendation">Get Recommendation</button>
+    <button type="button" onclick="document.getElementById('cropAdvisorDialog').style.display='none'" data-i18n="common.close">Close</button>
+  </form>
+  <div id="recommendationResult" style="margin-top:15px; font-weight:bold;"></div>
+</div>
 
-      <button type="button" onclick="recommendCrop()">Get Recommendation</button>
-      <button type="button" onclick="document.getElementById('cropAdvisorDialog').style.display='none'">Close</button>
-    </form>
-    <div id="recommendationResult" style="margin-top:15px; font-weight:bold;"></div>
-  </div>
+<!-- Weather Forecast Dialog -->
+<div id="weatherDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #2196F3; border-radius:10px; z-index:1000;">
+  <h2 data-i18n="weather.title">Weather Forecast</h2>
+  <form id="weatherForm">
+    <label for="location" data-i18n="weather.location">Location:</label>
+    <input type="text" id="location" name="location"><br><br>
+    <button type="button" onclick="getWeather()" data-i18n="weather.getForecast">Get Forecast</button>
+    <button type="button" onclick="document.getElementById('weatherDialog').style.display='none'" data-i18n="common.close">Close</button>
+  </form>
+  <div id="weatherResult" style="margin-top:15px; font-weight:bold;"></div>
+</div>
 
-  <!-- Weather Forecast Dialog -->
-  <div id="weatherDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #2196F3; border-radius:10px; z-index:1000;">
-    <h2>Weather Forecast</h2>
-    <form id="weatherForm">
-      <label for="location">Location:</label>
-      <input type="text" id="location" name="location"><br><br>
-      <button type="button" onclick="getWeather()">Get Forecast</button>
-      <button type="button" onclick="document.getElementById('weatherDialog').style.display='none'">Close</button>
-    </form>
-    <div id="weatherResult" style="margin-top:15px; font-weight:bold;"></div>
-  </div>
+<!-- Soil Health Checker Dialog -->
+<div id="soilDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #FF9800; border-radius:10px; z-index:1000;">
+  <h2 data-i18n="soil.title">Soil Health Checker</h2>
+  <form id="soilForm">
+    <label for="ph" data-i18n="soil.ph">pH Level:</label>
+    <input type="number" step="0.1" id="ph" name="ph"><br><br>
+    <label for="texture" data-i18n="soil.texture">Texture:</label>
+    <select id="texture" name="texture">
+      <option value="sandy" data-i18n="soilType.sandy">Sandy</option>
+      <option value="clay" data-i18n="soilType.clay">Clay</option>
+      <option value="loamy" data-i18n="soilType.loamy">Loamy</option>
+    </select><br><br>
+    <label for="organic" data-i18n="soil.organic">Organic Matter (%):</label>
+    <input type="number" step="0.1" id="organic" name="organic"><br><br>
+    <label for="moisture" data-i18n="soil.moisture">Moisture (%):</label>
+    <input type="number" step="0.1" id="moisture" name="moisture"><br><br>
+    <button type="button" onclick="checkSoil()" data-i18n="soil.check">Check Soil</button>
+    <button type="button" onclick="document.getElementById('soilDialog').style.display='none'" data-i18n="common.close">Close</button>
+  </form>
+  <div id="soilResult" style="margin-top:15px; font-weight:bold;"></div>
+</div>
 
-  <!-- Soil Health Checker Dialog -->
-  <div id="soilDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #FF9800; border-radius:10px; z-index:1000;">
-    <h2>Soil Health Checker</h2>
-    <form id="soilForm">
-      <label for="ph">pH Level:</label>
-      <input type="number" step="0.1" id="ph" name="ph"><br><br>
-      <label for="texture">Texture:</label>
-      <select id="texture" name="texture">
-        <option value="sandy">Sandy</option>
-        <option value="clay">Clay</option>
-        <option value="loamy">Loamy</option>
-      </select><br><br>
-      <label for="organic">Organic Matter (%):</label>
-      <input type="number" step="0.1" id="organic" name="organic"><br><br>
-      <label for="moisture">Moisture (%):</label>
-      <input type="number" step="0.1" id="moisture" name="moisture"><br><br>
-      <button type="button" onclick="checkSoil()">Check Soil</button>
-      <button type="button" onclick="document.getElementById('soilDialog').style.display='none'">Close</button>
-    </form>
-    <div id="soilResult" style="margin-top:15px; font-weight:bold;"></div>
-  </div>
-
-  <!-- Yield Calculator Dialog -->
-  <div id="yieldDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #9C27B0; border-radius:10px; z-index:1000;">
-    <h2>Yield Calculator</h2>
-    <form id="yieldForm">
-      <label for="crop">Crop Type:</label>
-      <input type="text" id="crop" name="crop"><br><br>
-      <label for="area">Area (hectares):</label>
-      <input type="number" step="0.1" id="area" name="area"><br><br>
-      <label for="seedRate">Seed Rate (kg/ha):</label>
-      <input type="number" step="0.1" id="seedRate" name="seedRate"><br><br>
-      <label for="yieldRate">Expected Yield (kg/ha):</label>
-      <input type="number" step="0.1" id="yieldRate" name="yieldRate"><br><br>
-      <button type="button" onclick="calculateYield()">Calculate Yield</button>
-      <button type="button" onclick="document.getElementById('yieldDialog').style.display='none'">Close</button>
-    </form>
-    <div id="yieldResult" style="margin-top:15px; font-weight:bold;"></div>
-  </div>
-</section>
-
-
+<!-- Yield Calculator Dialog -->
+<div id="yieldDialog" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:2px solid #9C27B0; border-radius:10px; z-index:1000;">
+  <h2 data-i18n="yield.title">Yield Calculator</h2>
+  <form id="yieldForm">
+    <label for="crop" data-i18n="yield.cropType">Crop Type:</label>
+    <input type="text" id="crop" name="crop"><br><br>
+    <label for="area" data-i18n="yield.area">Area (hectares):</label>
+    <input type="number" step="0.1" id="area" name="area"><br><br>
+    <label for="seedRate" data-i18n="yield.seedRate">Seed Rate (kg/ha):</label>
+    <input type="number" step="0.1" id="seedRate" name="seedRate"><br><br>
+    <label for="yieldRate" data-i18n="yield.yieldRate">Expected Yield (kg/ha):</label>
+    <input type="number" step="0.1" id="yieldRate" name="yieldRate"><br><br>
+    <button type="button" onclick="calculateYield()" data-i18n="yield.calculate">Calculate Yield</button>
+    <button type="button" onclick="document.getElementById('yieldDialog').style.display='none'" data-i18n="common.close">Close</button>
+  </form>
+  <div id="yieldResult" style="margin-top:15px; font-weight:bold;"></div>
+</div>
 
 <!-- FAQ -->
 <section id="faq">
