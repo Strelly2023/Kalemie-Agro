@@ -217,7 +217,48 @@ founder_note: "🌱 From Our Founder: \"Kalemie Agro is more than a farm — it�
     blog_1_title: "🌿 Sustainable Farming Tips",
     blog_1_summary: "Learn how Kalemie Agro is helping farmers grow cassava more efficiently.",
     blog_2_title: "🥚 Poultry Expansion",
-    blog_2_summary: "We’ve added 500 new layer hens to boost egg production."
+    blog_2_summary: "We’ve added 500 new layer hens to boost egg production.",
+	/* Smart Tools Section */
+    smart_tools_title: "🌟 Smart Tools",
+    smart_tools_description: "Explore our interactive tools designed to assist farmers with crop recommendations, weather forecasts, soil health analysis, and yield estimation. These tools provide practical insights to support agricultural decision-making.",
+    toggle_time: "Toggle Time Display",
+    open_crop_advisor: "Open AI Crop Advisor",
+    open_weather_forecast: "Open Weather Forecast",
+    open_soil_checker: "Open Soil Health Checker",
+    open_yield_calc: "Open Yield Calculator",
+
+    cropAdvisor_title: "AI Crop Advisor",
+    cropAdvisor_soilType: "Soil Type:",
+    cropAdvisor_region: "Region:",
+    cropAdvisor_season: "Season:",
+    cropAdvisor_getRecommendation: "Get Recommendation",
+
+    soilType_sandy: "Sandy",
+    soilType_clay: "Clay",
+    soilType_loamy: "Loamy",
+
+    season_dry: "Dry",
+    season_rainy: "Rainy",
+
+    weather_title: "Weather Forecast",
+    weather_location: "Location:",
+    weather_getForecast: "Get Forecast",
+
+    soil_title: "Soil Health Checker",
+    soil_ph: "pH Level:",
+    soil_texture: "Texture:",
+    soil_organic: "Organic Matter (%):",
+    soil_moisture: "Moisture (%):",
+    soil_check: "Check Soil",
+
+    yield_title: "Yield Calculator",
+    yield_cropType: "Crop Type:",
+    yield_area: "Area (hectares):",
+    yield_seedRate: "Seed Rate (kg/ha):",
+    yield_yieldRate: "Expected Yield (kg/ha):",
+    yield_calculate: "Calculate Yield",
+
+    common_close: "Close"
   },
 
   sw: {
@@ -420,7 +461,48 @@ founder_note: "🌱 Kutoka kwa Mwenza Mwanzilishi: \"Kalemie Agro ni zaidi ya sh
     blog_1_title: "🌿 Vidokezo vya Kilimo Endelevu",
     blog_1_summary: "Jifunze jinsi Kalemie Agro inavyosaidia wakulima kukuza mihogo kwa ufanisi zaidi.",
     blog_2_title: "🥚 Upanuzi wa Kuku",
-    blog_2_summary: "Tumeongeza kuku wa mayai 500 ili kuongeza uzalishaji wa mayai."
+    blog_2_summary: "Tumeongeza kuku wa mayai 500 ili kuongeza uzalishaji wa mayai.",
+	 
+    smart_tools_title: "🌟 Zana Mahiri",
+    smart_tools_description: "Gundua zana zetu za mwingiliano zilizoundwa kusaidia wakulima kwa mapendekezo ya mazao, utabiri wa hali ya hewa, uchambuzi wa afya ya udongo, na makadirio ya mavuno.",
+    toggle_time: "Badilisha Onyesho la Wakati",
+    open_crop_advisor: "Fungua Mshauri wa Mazao wa AI",
+    open_weather_forecast: "Fungua Utabiri wa Hali ya Hewa",
+    open_soil_checker: "Fungua Kikagua Afya ya Udongo",
+    open_yield_calc: "Fungua Kikokotoo cha Mavuno",
+
+    cropAdvisor_title: "Mshauri wa Mazao wa AI",
+    cropAdvisor_soilType: "Aina ya udongo:",
+    cropAdvisor_region: "Eneo:",
+    cropAdvisor_season: "Msimu:",
+    cropAdvisor_getRecommendation: "Pata Mapendekezo",
+
+    soilType_sandy: "Udongo wa mchanga",
+    soilType_clay: "Udongo wa udongo",
+    soilType_loamy: "Udongo wa loam",
+
+    season_dry: "Kavu",
+    season_rainy: "Mvua",
+
+    weather_title: "Utabiri wa Hali ya Hewa",
+    weather_location: "Mahali:",
+    weather_getForecast: "Pata Utabiri",
+
+    soil_title: "Kikagua Afya ya Udongo",
+    soil_ph: "Kiwango cha pH:",
+    soil_texture: "Muundo:",
+    soil_organic: "Mambo ya kikaboni (%):",
+    soil_moisture: "Unyevu (%):",
+    soil_check: "Kagua Udongo",
+
+    yield_title: "Kikokotoo cha Mavuno",
+    yield_cropType: "Aina ya mazao:",
+    yield_area: "Eneo (hekta):",
+    yield_seedRate: "Kiwango cha mbegu (kg/ha):",
+    yield_yieldRate: "Mavuno yanayotarajiwa (kg/ha):",
+    yield_calculate: "Kokotoa Mavuno",
+
+    common_close: "Funga"
   },
 
   fr: {
@@ -624,7 +706,48 @@ founder_note: "🌱 Message de Notre Fondateur : \"Kalemie Agro est plus qu'une 
     blog_1_title: "🌿 Conseils pour une agriculture durable",
     blog_1_summary: "Découvrez comment Kalemie Agro aide les agriculteurs à cultiver le manioc plus efficacement.",
     blog_2_title: "🥚 Expansion de la volaille",
-    blog_2_summary: "Nous avons ajouté 500 nouvelles poules pondeuses pour augmenter la production d'œufs."
+    blog_2_summary: "Nous avons ajouté 500 nouvelles poules pondeuses pour augmenter la production d'œufs.",
+
+    smart_tools_title: "🌟 Outils Intelligents",
+    smart_tools_description: "Découvrez nos outils interactifs conçus pour aider les agriculteurs avec des recommandations de cultures, des prévisions météorologiques, une analyse de la santé des sols et une estimation des rendements.",
+    toggle_time: "Afficher/Masquer l'heure",
+    open_crop_advisor: "Ouvrir le Conseiller Agricole IA",
+    open_weather_forecast: "Ouvrir les Prévisions Météo",
+    open_soil_checker: "Ouvrir l'Analyseur de Sol",
+    open_yield_calc: "Ouvrir le Calculateur de Rendement",
+
+    cropAdvisor_title: "Conseiller Agricole IA",
+    cropAdvisor_soilType: "Type de sol :",
+    cropAdvisor_region: "Région :",
+    cropAdvisor_season: "Saison :",
+    cropAdvisor_getRecommendation: "Obtenir une recommandation",
+
+    soilType_sandy: "Sableux",
+    soilType_clay: "Argileux",
+    soilType_loamy: "Limoneux",
+
+    season_dry: "Sèche",
+    season_rainy: "Pluvieuse",
+
+    weather_title: "Prévisions Météo",
+    weather_location: "Lieu :",
+    weather_getForecast: "Obtenir les prévisions",
+
+    soil_title: "Analyseur de Santé du Sol",
+    soil_ph: "Niveau de pH :",
+    soil_texture: "Texture :",
+    soil_organic: "Matière organique (%) :",
+    soil_moisture: "Humidité (%) :",
+    soil_check: "Analyser le sol",
+
+    yield_title: "Calculateur de Rendement",
+    yield_cropType: "Type de culture :",
+    yield_area: "Surface (hectares) :",
+    yield_seedRate: "Densité de semis (kg/ha) :",
+    yield_yieldRate: "Rendement attendu (kg/ha) :",
+    yield_calculate: "Calculer le rendement",
+
+    common_close: "Fermer"
   },
 
   bi: {
@@ -838,7 +961,47 @@ founder_note: "🌱 Message de Notre Fondateur : \"Kalemie Agro est plus qu'une 
   blog_1_title: "🌿 Inama ku Bihinzi Burama",
   blog_1_summary: "Menya ukuntu Kalemie Agro ifasha abahinzi kurima umwumbati neza.",
   blog_2_title: "🥚 Kwagura Ubworozi bw’Inkoko",
-  blog_2_summary: "Twongereye inkoko 500 zishobora gutanga amagi kugira twongere umwimbu."
+  blog_2_summary: "Twongereye inkoko 500 zishobora gutanga amagi kugira twongere umwimbu.",
+	   smart_tools_title: "🌟 Ibikoresho vy’Ubuhinga",
+    smart_tools_description: "Raba ibikoresho vyacu vy’ubuhinga vyakozwe gufasha abahinzi mu gutora ibiterwa, kumenya uko ikirere kizoba, gusuzuma ubuzima bw’ivu, no gukoresha ingene vyimbuka.",
+    toggle_time: "Hindura Kwerekana Isaha",
+    open_crop_advisor: "Fungura Umuhanuzi w’Ibiterwa wa AI",
+    open_weather_forecast: "Fungura Umenyeshe Ikirere",
+    open_soil_checker: "Fungura Isuzuma ry’Ivu",
+    open_yield_calc: "Fungura Ibaruramavuno",
+
+    cropAdvisor_title: "Umuhanuzi w’Ibiterwa wa AI",
+    cropAdvisor_soilType: "Ubwoko bw’ivu:",
+    cropAdvisor_region: "Intara:",
+    cropAdvisor_season: "Igihe c’umwaka:",
+    cropAdvisor_getRecommendation: "Tora Inyishu",
+
+    soilType_sandy: "Ivu ry’umusenyi",
+    soilType_clay: "Ivu ry’ibumba",
+    soilType_loamy: "Ivu ry’imvange",
+
+    season_dry: "Igihe c’izuba",
+    season_rainy: "Igihe c’imvura",
+
+    weather_title: "Umenyeshe Ikirere",
+    weather_location: "Ahantu:",
+    weather_getForecast: "Tora Umenyeshe Ikirere",
+
+    soil_title: "Isuzuma ry’Ivu",
+    soil_ph: "Urugero rwa pH:",
+    soil_texture: "Ubwoko bw’ivu:",
+    soil_organic: "Ibintu vy’ibinyabuzima (%):",
+    soil_moisture: "Ubukenye (%):",
+    soil_check: "Suzuma Ivu",
+
+    yield_title: "Ibaruramavuno",
+    yield_cropType: "Ubwoko bw’ibiterwa:",
+    yield_area: "Ubuso (hegitari):",
+    yield_seedRate: "Ubwinshi bw’imbuto (kg/ha):",
+    yield_yieldRate: "Ivyimbuka vyitezwe (kg/ha):",
+    yield_calculate: "Bara Ivyimbuka",
+
+    common_close: "Funga"
 }
 
 };
